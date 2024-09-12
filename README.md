@@ -10,6 +10,23 @@ This project analyzes Netflix's dataset using SQL to gain insights into the plat
 2. Git for version control
 
 
+## Dataset
+The analysis is based on a dataset that contains detailed information about Netflix's movie and TV show content. The table structure includes the following columns:
+
++ title: The name of the movie or TV show.
++ type: Specifies whether the content is a "Movie" or "TV Show".
++ director: The director(s) of the movie or TV show. Some entries may have this field as null.
++ casts: The main cast of the movie or TV show, listed as a string of names.
++ country: The country or countries where the content was produced.
++ date_added: The date when the content was added to Netflix.
++ release_year: The year when the movie or TV show was originally released.
++ rating: The rating assigned to the movie or TV show (e.g., PG, R, TV-14).
++ duration: The duration of the content (e.g., "90 min" for movies or "3 Seasons" for TV shows).
++ listed_in: The genre or categories the content falls under, such as "Documentaries", "Comedies", "Action & Adventure".
++ description: A brief summary or description of the content.
+
+
+
 ## SQL Queries Overview
 The following are the key SQL queries included in this project:
 
@@ -57,19 +74,3 @@ The following are the key SQL queries included in this project:
 
 15. Categorizing content by keywords 'Kill' and 'Violence'
   + Labels content as 'BadContent' if it contains the keywords 'kill' or 'violence'; otherwise, it is labeled as 'GoodContent'.
-
-
-## Dataset
-The analysis is based on a dataset that contains detailed information about Netflix's movie and TV show content. The table structure includes the following columns:
-
-+ title: The name of the movie or TV show.
-+ type: Specifies whether the content is a "Movie" or "TV Show".
-+ director: The director(s) of the movie or TV show. Some entries may have this field as null.
-+ casts: The main cast of the movie or TV show, listed as a string of names.
-+ country: The country or countries where the content was produced.
-+ date_added: The date when the content was added to Netflix.
-+ release_year: The year when the movie or TV show was originally released.
-+ rating: The rating assigned to the movie or TV show (e.g., PG, R, TV-14).
-+ duration: The duration of the content (e.g., "90 min" for movies or "3 Seasons" for TV shows).
-+ listed_in: The genre or categories the content falls under, such as "Documentaries", "Comedies", "Action & Adventure".
-+ description: A brief summary or description of the content.
