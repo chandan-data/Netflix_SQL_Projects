@@ -14,7 +14,7 @@ This project analyzes Netflix's dataset using SQL to gain insights into the plat
 The following are the key SQL queries included in this project:
 
 1. Count the number of Movies vs TV Shows
-  + Query that counts and compares the number of movies and TV shows on Netflix.
+&nbsp;+ Query that counts and compares the number of movies and TV shows on Netflix.
 
 2. Find the most common rating for Movies and TV Shows
   + Identifies the most frequent rating for each type of content.
